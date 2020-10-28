@@ -1,60 +1,61 @@
 body {
-    background-color : #c6fcfd1c;
-    font-family: 'Open Sans', sans-serif;
-    color: cadetblue;
-    font-size: medium;
-    line-height: initial
+  background-color : #c6fcfd1c;
+  font-family: 'Open Sans', sans-serif;
+  color: cadetblue;
+  font-size: medium;
+  line-height: initial
 }
 
 h1 {
-    font-family : 'Open Sans', serif;
-    color: #3a4a4a;
-    font-size: x-large;
-    line-height: initial
+  font-family : 'Open Sans', serif;
+  color: #3a4a4a;
+  font-size: x-large;
+  line-height: initial
 
 }
 
 h2 {
-    font-family : 'Open Sans', serif;
-    color: #3a4a4a;
-    font-size: large;
-    line-height: initial
+  font-family : 'Open Sans', serif;
+  color: #3a4a4a;
+  font-size: large;
+  line-height: initial
 }
 
 .button {
-    line-height: 50px;
-    height: 50px;
-    text-align: center;
-    width: 40%;
-    cursor: pointer;
-    color: rgba(255,255,255,1);
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    position: relative;
-    border: 1px solid rgba(255,255,255,0.5);
-    background-color: #38826c;
-   -webkit-animation-name: clignote;
-   -webkit-animation-duration: 3s;
-   -webkit-animation-iteration-count:infinite;
-   -webkit-animation-name: cameleon;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 40%;
+  cursor: pointer;
+  color: rgba(255,255,255,1);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.5);
+  background-color: #38826c;
+ -webkit-animation-name: clignote;
+ -webkit-animation-duration: 3s;
+ -webkit-animation-iteration-count:infinite;
+ -webkit-animation-name: cameleon;
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count: infinite;
 }
 
 .button:hover {
-    border-radius: 15px;
-    font-weight: bold;
+  border-radius: 15px;
+  font-weight: bold;
 }
 
 .image {
-    border-radius: 50%;
-    border: 2px solid #47a29c
+  border-radius: 50%;
+  border: 2px solid #47a29c
 }
 
 .card {
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px;
+  margin: 0px 0px 30px 0px;
   border-radius: 5px;
   border: #41c1a7;
   text-align: center;
@@ -62,63 +63,64 @@ h2 {
 }
 
 .second_card{
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-    border-radius: 5px;
-    border: #41c1a7;
-    text-align: center;
-    padding: 60px 60px 40px 60px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px;
+  margin: 0px 0px 30px 0px;
+  border-radius: 5px;
+  border: #41c1a7;
+  text-align: center;
+  padding: 60px 60px 40px 60px;
 }
 .container {
-    width: 700px;   /* This sets the width */
-    margin: 0 auto; /* This automatically sets left/right margins */
-    background-color: white;
-  }
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  background-color: white;
+}
 
-  
+
 .list-inline > li {
-    display: inline-block;
-    padding: 0px 20px;
-    list-style: none;
-  }
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
 
 ul {
-  padding: 0px;
+padding: 0px;
 }
 
 .fab {
-    font-size: 200%;
-    color: #41c1a7;
+  font-size: 200%;
+  color: #41c1a7;
 }
 
 @-webkit-keyframes clignote {
-    0%{box-shadow:0px 0px 10px #4183C4;}
-    50%{box-shadow:0px 0px 0px #4183C4;}
-    100%{box-shadow:0px 0px 10px #4183C4;}
-    }
+  0%{box-shadow:0px 0px 10px #4183C4;}
+  50%{box-shadow:0px 0px 0px #4183C4;}
+  100%{box-shadow:0px 0px 10px #4183C4;}
+  }
 
 @-webkit-keyframes cameleon {
-    0% {background-color: #FF5D5D;}
-    25% {background-color: #f9db64;}
-    50% {background-color: #8EFF61;}
-    75% {background-color: #60FFB2;}
-    100% {background-color: #5EB7FF;}
-    }
+  0% {background-color: #FF5D5D;}
+  25% {background-color: #f9db64;}
+  50% {background-color: #8EFF61;}
+  75% {background-color: #60FFB2;}
+  100% {background-color: #5EB7FF;}
+  }
 
-    @media (max-width: 960px) {
-        /* For a screen < 960px, this CSS will be read */
-        .container {
-          width: 700px;
-        }
+  @media (max-width: 960px) {
+      /* For a screen < 960px, this CSS will be read */
+      .container {
+        width: 700px;
       }
-      @media (max-width: 720px) {
-        /* For a screen < 720px, this CSS will be read */
-        .container {
-          width: 500px;
-        }
+    }
+    @media (max-width: 720px) {
+      /* For a screen < 720px, this CSS will be read */
+      .container {
+        width: 500px;
       }
-      @media (max-width: 540px) {
-        /* For a screen < 540px, this CSS will be read */
-        .container {
-          width: 300px;
-        }
+    }
+    @media (max-width: 540px) {
+      /* For a screen < 540px, this CSS will be read */
+      .container {
+        width: 300px;
       }
+    }
